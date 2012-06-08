@@ -131,8 +131,7 @@ class NexmoClient
   }
 
   /**
-   * Helper method which informs whether or not the flag for this service
-   * is set to enabled in the database
+   * Informs whether or not the NexmoClient application is enabled in configuration
    *
    * @return bool
    */
