@@ -87,7 +87,6 @@ class NexmoClient
    * @param string $sender optional sender
    *
    * @return array $result
-   * @throws Exception
    */
   public function request( $recipient, $message, $sender = false )
   {
