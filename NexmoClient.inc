@@ -73,7 +73,7 @@ class NexmoClient
 
     if ( $instance === NULL )
     {
-      $instance = new Nexmo( );
+      $instance = new NexmoClient( );
     }
 
     return $instance;
