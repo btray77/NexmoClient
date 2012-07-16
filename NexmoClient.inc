@@ -54,7 +54,7 @@ class NexmoClient
   /**
    * Constructor
    */
-  private function construct( )
+  private function __construct( )
   {
     /**
      * Populate the isEnabled member variable
